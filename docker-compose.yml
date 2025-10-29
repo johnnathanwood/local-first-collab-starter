@@ -1,0 +1,10 @@
+services:
+  relay:
+    image: node:20-alpine
+    working_dir: /app
+    command: ["sh", "-c", "npm install && node server.js"]
+    volumes:
+      - ./relay:/app
+    ports:
+      - "1234:1234"
+

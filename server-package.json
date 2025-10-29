@@ -1,0 +1,10 @@
+{
+  "name": "local-first-collab-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.18.0",
+    "yjs": "^13.6.18",
+    "y-websocket": "^1.5.3"
+  }
+}

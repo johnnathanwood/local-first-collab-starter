@@ -1,0 +1,7 @@
+{
+  "run": "npm run start",
+  "modules": ["nodejs-18"],
+  "interpreter": "nodejs",
+  "entrypoint": "server.js",
+  "onBoot": "npm install"
+}

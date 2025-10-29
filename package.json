@@ -1,0 +1,15 @@
+{
+  "name": "local-first-collab-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "relay": "cd relay && npm run dev",
+    "install-all": "cd client && npm install && cd ../relay && npm install",
+    "start": "npm run install-all && npm run relay & npm run dev",
+    "build": "cd client && npm run build",
+    "serve": "node server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
