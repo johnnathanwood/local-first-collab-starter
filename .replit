@@ -1,8 +1,10 @@
 run = "npm run serve"
 modules = ["nodejs-18"]
-interpreter = "nodejs"
 entrypoint = "server.js"
 onBoot = "npm install"
+
+[interpreter]
+command = ["node"]
 
 [languages]
 
