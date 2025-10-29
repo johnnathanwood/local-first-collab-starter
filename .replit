@@ -1,7 +1,13 @@
-{
-  "run": "npm run start",
-  "modules": ["nodejs-18"],
-  "interpreter": "nodejs",
-  "entrypoint": "server.js",
-  "onBoot": "npm install"
-}
+run = "npm run serve"
+modules = ["nodejs-18"]
+interpreter = "nodejs"
+entrypoint = "server.js"
+onBoot = "npm install"
+
+[languages]
+
+[languages.javascript]
+pattern = "**/{*.js,*.jsx}"
+
+[languages.typescript]
+pattern = "**/{*.ts,*.tsx}"
